@@ -1,0 +1,90 @@
+.sectionstyle {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contactContainer {
+  background-color: #73b72c; /* Green background */
+  padding: 20px;
+  border-radius: 12px; /* Rounded corners */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contactHeaderXhosa {
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+  margin: 0;
+  font-size: 36px;
+  
+}
+
+.contactHeaderEnglish {
+  color: #fff; /* White text color */
+  font-size: 28px;
+  
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center; /* Aligns children like input fields to the center */
+  margin-top: 20px;
+}
+
+.inputField,
+.textAreaField {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%; /* Adjusts width of the fields */
+  text-align: center; /* Ensures text inside the fields is centered */
+}
+
+.textAreaField {
+  height: 100px; /* Set height for the text area */
+}
+
+.submitButton {
+  background-color: #fff; /* White background for button */
+  color: #73b72c; /* Green text color */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 60%; /* Optional: Set width for consistency */
+}
+
+
+
+.contactInfo {
+  margin-top: 20px;
+  color: #fff; /* White text color */
+  text-align: center;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.socialLinks a {
+  color: #fff; /* White text color */
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.socialLinks a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,145 @@
+/* Main container */
+.container {
+  position: relative;
+  background-color: rgb(33, 34, 32);
+  border-radius: 15px;
+  padding: 50px;
+  margin: 10% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Titles */
+.title {
+  color: var(--color-text);
+  font-size: 28px;
+  
+  letter-spacing: 1.75px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title2 {
+  color: #73b72c;
+  font-size: 35px;
+ 
+  letter-spacing: 1.75px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Wrapper for image and list */
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Image on the left */
+.imageContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.aboutImage {
+  width: 80%; /* Adjust the size as needed */
+  max-width: 400px;
+  border-radius: 15px;
+}
+
+/* Events list on the right */
+.eventsList {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  max-height: 400px; /* Limit height for vertical scroll */
+  overflow-y: auto; /* Vertical scrolling */
+  margin-left: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Subtle background */
+  border-radius: 15px;
+}
+
+/* Individual event item */
+.eventItem {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.eventItem:hover {
+  background-color: rgba(115, 183, 44, 0.8);
+ 
+}
+
+.eventItem:hover h3 {
+  color: black;
+ 
+}
+
+.eventItem h3 {
+  color: #73b72c;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.eventItem h3:hover {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.eventItem h4 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.eventItem p {
+  color: #ddd;
+  font-size: 16px;
+}
+
+/* Add scrollbar styling */
+.eventsList::-webkit-scrollbar {
+  width: 8px;
+}
+
+.eventsList::-webkit-scrollbar-thumb {
+  background-color: #73b72c;
+  border-radius: 10px;
+}
+
+.eventsList::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 830px) {
+  .contentWrapper {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    border-radius: 15px;
+    overflow: hidden; /* Ensure images don’t overflow */
+    background-color: #f5f5f5; /* Placeholder background color */
+  }
+  
+  .aboutImage {
+    max-width: 100%; /* Image adjusts to container width */
+    max-height: 100%; /* Image adjusts to container height */
+    object-fit: cover; /* Ensures image covers the container while preserving aspect ratio */
+  }
+}
