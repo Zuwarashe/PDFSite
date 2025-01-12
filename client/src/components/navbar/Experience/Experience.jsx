@@ -38,34 +38,18 @@ export const Experience = () => {
         {/* Description */}
         <div className={styles.description}>
         <p className={styles.descriptionText}>
-  Phumlani Dube is a renowned media personality and passionate health advocate 
-  committed to uplifting marginalized communities through innovative health and 
-  wellness initiatives. With a personal story rooted in resilience and perseverance, 
-  he has transformed his challenges into a mission to inspire others to prioritize 
-  their well-being and live healthier, more fulfilling lives.
-  </p>
-  <p className={styles.descriptionText}>
-  Driven by his vision of creating lasting change, Phumlani founded the Phumlani 
-  Dube Foundation, a nonprofit organization dedicated to addressing the unique 
-  health challenges faced by underserved communities. Through the foundation, he 
-  has championed programs that promote active lifestyles, mental health awareness, 
-  and holistic wellness, with a special focus on supporting senior citizens. 
+  Phumlani Dube, a media personality and health advocate, is dedicated to uplifting marginalized communities through health and wellness initiatives. Turning personal challenges into a mission, he inspires others to prioritize well-being and live healthier lives.
+</p>
+<p className={styles.descriptionText}>
+  As the founder of the Phumlani Dube Foundation, he addresses health challenges in underserved communities, promoting active lifestyles, mental health awareness, and holistic wellness, with a special focus on senior citizens.
+</p>
+<p className={styles.descriptionText}>
+  The foundation has impacted countless lives through outreach campaigns, fitness workshops, and collaborations with local health practitioners, fostering hope and community where it’s most needed.
+</p>
+<p className={styles.descriptionText}>
+  Phumlani invites support to expand his mission. By volunteering, partnering, or donating, you can help build healthier, empowered communities. Join him in making a difference today.
 </p>
 
-  <p className={styles.descriptionText}>
-  Over the years, the foundation has made a profound impact, touching countless 
-  lives through outreach campaigns, fitness workshops, and collaborative efforts 
-  with local health practitioners. Phumlani's work has not only inspired individuals 
-  to take control of their health but has also fostered a sense of hope and community 
-  in areas often overlooked.
-</p><p className={styles.descriptionText}>
-  However, the journey is far from over. Phumlani is eager to extend the reach of his 
-  work and welcomes support from anyone who shares his vision of building healthier, 
-  more empowered communities. Whether through volunteering, partnerships, or 
-  donations, your involvement can help amplify his mission and create a brighter 
-  future for those in need. Join him in this transformative journey and make a 
-  difference today.
-</p>
 
 
           

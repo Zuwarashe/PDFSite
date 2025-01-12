@@ -5,9 +5,10 @@
   justify-content: space-between;
   padding: 10px 20px;
   
-  background: #e2f7d3;
+  background-color:  #73b72c; 
 
-  border: 1px solid #73b72c;
+  border: 1px solid #baec8e;
+  
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -51,24 +52,26 @@
 }
 
 .navLinks a:hover {
-  color: #007bff; /* Link hover color */
+  color: whitesmoke; /* Link hover color */
 }
 
 /* Donate Button */
 .donateButton {
-  background-color: #73b72c;
-  color: white;
+  background-color: white;
+  color: #73b72c;
   font-size: 16px;
   font-weight: bold;
   border: none;
   border-radius: 20px;
   padding: 8px 16px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
 }
 
 .donateButton:hover {
-  background-color: #ff6347; /* Slightly lighter shade on hover */
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); 
+  transform: scale(1.10); 
 }
 
 /* Responsive Design */

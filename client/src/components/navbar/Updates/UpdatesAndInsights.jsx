@@ -97,7 +97,7 @@ export const UpdatesAndInsights = () => {
           <div className={styles.ctaBoxGreen}>
           
         <blockquote className={styles.quote}>
-          "Together, we strive to build a healthier, active, and empowered community."
+        "With every effort we make, we create a ripple effect of health, hope, and empowerment that touches lives, strengthens communities, and inspires a brighter, more equitable future for all. Together, we can transform challenges into opportunities and ensure that no one is left behind on the journey to wellness and prosperity."
         </blockquote>
         
      

@@ -1,19 +1,19 @@
 /* Card Container */
 .landingCard {
   position: absolute;
-  top: 70%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  width: 70%;
+  width: 100%;
   border: 0.8px solid #73b72c;
   background: white;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  padding: 20px 30px;
+  padding: 0px 30px;
 }
 
 /* Card Links */
@@ -46,6 +46,9 @@
   margin: 0;
 }
 
+.exploreButton b{
+  color: #333;
+}
 .cardItem h4 {
   color: #333;
   font-size: 1.2rem;
@@ -73,4 +76,70 @@
 
 .exploreButton:hover {
   background-color: #5aa63b;
+  transform: scale(1.10); 
+}
+
+
+/* Card Container */
+.cardContainer {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:normal;
+  width: 70%;
+  padding: 0px 30px;
+}
+
+.blankCard {
+  width: 100%; /* Same width as Landing Card */
+  height: auto; /* Allow the card to adjust based on content */
+  margin-top: 20%;
+  top: 10%;
+  left: 0;
+  border-radius: 10px;
+  display: flex; /* Flexbox for alignment */
+  justify-content: flex-start; /* Align all content to the left */
+  align-items: center; /* Center content vertically */
+  padding: 20px; /* Add padding for spacing */
+  color: black; /* Ensure text is visible */
+  font-size: 16px; /* Adjust text size if needed */
+  font-family: Arial, sans-serif; /* Set a font family */
+  gap: 20px; /* Add spacing between individual stats */
+}
+
+.blankCard h2{
+  font-size: 1.2rem;
+}
+/* Individual Stat */
+.stat {
+  text-align: left; /* Align text to the left */
+  margin-right: 20px; /* Space between stats */
+}
+
+/* Stat Number */
+.statNumber {
+  font-size: 24px; 
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Stat Label */
+.statLabel {
+  font-size: 16px;
+  margin: 0;
+}
+
+.greenLabel {
+  color: #6abf4b; /* Green color for "Classes Completed" */
+  font-weight: bold; 
+}
+
+.blankCard h3 {
+  color: #6abf4b;
+  font-size: 1rem;
+  margin: 0;
 }

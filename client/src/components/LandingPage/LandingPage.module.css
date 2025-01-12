@@ -9,7 +9,8 @@
   /* Left Section */
   .leftSection {
     flex: 1; /* Takes up half of the screen */
-    background-color:  #baec8e; 
+   
+    background-color: #e2f7d3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,4 +49,5 @@
     height: 100px;
     background: transparent;
   }
+  
   

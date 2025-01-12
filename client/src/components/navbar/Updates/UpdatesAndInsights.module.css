@@ -35,7 +35,7 @@
   .content {
     display: flex;
     flex-direction: row;
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.95);
     border-radius: 10px;
     width: 100%;
     max-width: 1200px;
@@ -65,7 +65,7 @@
   }
   
   .ctaBoxGreen {
-    color: #73b72c; /* Green background */
+    color: black; 
     
   }
   
